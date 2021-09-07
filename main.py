@@ -26,6 +26,7 @@ while y.lower()!='n':
             continue
         elif a==n:
             print("Yay!!!!  You Guessed Right :)")
+            print("As you guessed the number is",a)
 
     y = input("Do you want to play again:(y/n): ")
     b=0
